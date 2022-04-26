@@ -41,7 +41,7 @@ const confidentialClientApplication = new msal.ConfidentialClientApplication(con
 
 //<ms_docref_api_config>
 const apiConfig = {
-    webApiScopes: [`https://${process.env.TENANT_NAME}.onmicrosoft.com/tasks-api/tasks.read`],
+    webApiScopes: [`https://${process.env.TENANT_NAME}.onmicrosoft.com/mankuk-api/api.read`],
     anonymousUri: 'http://localhost:5000/public',
     protectedUri: 'http://localhost:5000/hello'
 };
